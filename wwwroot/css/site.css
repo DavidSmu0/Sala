@@ -1,5 +1,7 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+﻿@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+
 
 a.navbar-brand {
   white-space: normal;
@@ -68,4 +70,30 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+#instrucciones
+{
+  font-family: 'Bungee', cursive;
+  font-size: 35px;
+}
+
+.instru-txt
+{
+  text-align: justify;
+  font-size: 30px;
+}
+
+#play
+{
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }
