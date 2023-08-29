@@ -23,7 +23,7 @@ namespace Sala_de_escape.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult PrimerPregunta()
         {
             return View();
         }
