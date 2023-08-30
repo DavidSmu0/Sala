@@ -114,3 +114,9 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.botones{
+  position:absolute;
+  bottom:5px;
+  right: 0px;
+}
