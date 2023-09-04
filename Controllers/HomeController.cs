@@ -23,10 +23,28 @@ namespace Sala_de_escape.Controllers
             return View();
         }
 
+
         public IActionResult PrimerPregunta()
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult PrimerPregunta(int R1P)
+        {
+            if (R1P==1911)
+            {
+                return View("RespuestaOK");
+            } else 
+            {
+                return View("RespuestaFalla");
+            }
+        }
+
+        // public ActionResult PR1(int R1)
+        // {
+            
+        // }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

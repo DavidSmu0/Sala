@@ -31,6 +31,71 @@ a {
 html {
   font-size: 14px;
 }
+
+.ft{
+  width: 50%;
+}
+
+#sali
+{
+  width:100% ;
+}
+
+.estadio
+{
+  width: 100%;
+}
+
+.instru-txt
+{
+  text-align: justify;
+  font-size: 30px;
+}
+
+#instrucciones
+{
+  font-family: 'Bungee', cursive;
+  font-size: 35px;
+}
+#hist
+{
+  text-align: justify;
+  font-size: 23px;
+}
+@media (max-width: 768px) {
+  .ft{
+    width: 30%;
+  }
+
+  #hist
+  {
+    font-size: 100%;
+  }
+
+  #instrucciones
+  {
+    font-size: 100%;
+  }
+
+  .instru-txt
+  {
+    font-size: 100%;
+  }
+
+  #play
+  {
+    width: 90%;
+  }
+  #sali
+  {
+    width: 100%;
+  }
+
+  .txt{
+    width: 90%;
+  }
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -72,17 +137,8 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-#instrucciones
-{
-  font-family: 'Bungee', cursive;
-  font-size: 35px;
-}
 
-.instru-txt
-{
-  text-align: justify;
-  font-size: 30px;
-}
+
 
 #play
 {
@@ -98,11 +154,7 @@ body {
   }
 }
 
-#hist
-{
-  text-align: justify;
-  font-size: 23px;
-}
+
 
 .preg
 {
@@ -120,3 +172,17 @@ body {
   bottom:5px;
   right: 0px;
 }
+
+
+
+#MaskOK {
+  background-color: #00ff0099;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+
