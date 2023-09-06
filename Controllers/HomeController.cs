@@ -24,9 +24,29 @@ namespace Sala_de_escape.Controllers
         }
 
 
+        
         public IActionResult PrimerPregunta()
         {
             return View();
+        }
+
+        public IActionResult SegundaPregunta()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SegundaPregunta(string R2P)
+        {
+            string respuestacorrecta;
+            respuestacorrecta="RAMOS";
+            if (R2P==respuestacorrecta)
+            {
+                return View("RespuestaOK2");
+            } else 
+            {
+                return View("RespuestaFalla2");
+            }
         }
 
         [HttpPost]
@@ -34,13 +54,14 @@ namespace Sala_de_escape.Controllers
         {
             if (R1P==1911)
             {
-                return View("RespuestaOK");
+                return View("RespuestaOK1");
             } else 
             {
-                return View("RespuestaFalla");
+                return View("RespuestaFalla1");
             }
         }
 
+      
         // public ActionResult PR1(int R1)
         // {
             

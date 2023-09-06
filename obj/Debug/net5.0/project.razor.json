@@ -15619,6 +15619,11 @@
   "RootNamespace": "Sala_de_escape",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Home\\SegundaPregunta.cshtml",
+      "TargetPath": "Views\\Home\\SegundaPregunta.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15626,6 +15631,11 @@
     {
       "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Home\\RespuestaOK1.cshtml",
+      "TargetPath": "Views\\Home\\RespuestaOK1.cshtml",
       "FileKind": "mvc"
     },
     {

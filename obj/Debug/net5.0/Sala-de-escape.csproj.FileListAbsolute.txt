@@ -38,3 +38,5 @@ C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Sala-de-escape.genruntimeconfig.cache
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Sala-de-escape.csproj.CopyComplete
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\PrimerPregunta.cshtml.g.cs
+C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\SegundaPregunta.cshtml.g.cs
+C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\RespuestaOK1.cshtml.g.cs
