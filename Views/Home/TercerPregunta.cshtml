@@ -1,0 +1,154 @@
+@{
+    ViewData["Title"] = "Tercer Pregunta";
+
+}
+
+<div class="conteiner-fluid">
+    <div class="row">
+        <div class="col-12 col-md-12 text-center">
+            <img id="sali" src="/img/TercerPregunta.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+<div class="conteiner-fluid">
+    <div class="row">
+        <div class="col-12 col-md-2">
+            &nbsp;
+        </div>
+
+        <div class="col-12 col-md-8 text-center">
+            <div>
+                <h5 id="sali" class="preg">¿Cómo se llama la cancha del parque?</h5>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-2">
+            &nbsp;
+        </div>
+    </div>
+</div>
+
+<div class="conteiner-fluid">
+    <div class="row">
+        <div class="col-2 col-md-3 text-left">
+
+
+            <img class="botones w-100" src="/img/ayuda1.png" data-toggle="modal" data-target="#modalAyuda1" alt="">
+        </div>
+
+        <div class="col-8 col-md-6 text-center">
+            <img class="w-100" src="/img/foto3.png" alt="">
+        </div>
+
+        <div class="col-2 col-md-3 text-right">
+            <img class="botones w-100" src="/img/ayuda 2.png" data-toggle="modal" data-target="#modalAyuda2" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="conteiner-fluid">
+    <div class="row">
+        <div class="col-2 col-md-3">
+            &nbsp;
+        </div>
+
+        <div class="col-12 col-md-6 text-center">
+            <br>
+
+
+<form method="post" action='@Url.Action("TercerPregunta","Home")'>
+            <div class="conteiner-fluid">
+                <div class="row">
+                    <div class="col-2 col-md-2">
+                        
+                            <input style="background-color:#D9D9D9;" type="radio" name="R3P" value="Marcelo Bielsa"
+                                class="form-control" required>
+                            <input style="background-color:#D9D9D9;" type="radio" name="R3P" value="Tata Martino"
+                                class="form-control" required>
+                            <input style="background-color:#D9D9D9;" type="radio" name="R3P" value="Diego Maradona"
+                                class="form-control" required>
+                            <input style="background-color:#D9D9D9;" type="radio" name="R3P" value="Pochettino"
+                                class="form-control" required>
+
+                           
+
+                    </div>
+
+                    <div class="col-10 col-md-10 text-left">
+                        <h3>Marcelo Bielsa</h3>
+                        <h3>Gerardo "Tata" Martino</h3>
+                        <h3>Diego A. Maradona</h3>
+                        <h3>Mauricio Pochettino</h3>
+                    </div>
+
+                    <div class="col-12 col-md-12 text-center">
+                         <input type="image" src="/img/submit.png" alt="Submit Form" >
+                    </div>
+
+
+
+                </div>
+            </div>
+</form>
+            <br>
+            
+            
+
+        </div>
+
+        <div class="col-2 col-md-3">
+            &nbsp;
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="modalAyuda1" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ayuda 1</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3>Lleva el nombre de un ídolo del club como jugador y como técnico.</h3>
+                <h5>¿cómo es?</h5>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalAyuda2" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Ayuda 2</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3>Fué campeón como tecnico y dirigió la selección de Argentina, chile e Uruguay</h3>
+                <h5>¿cómo es?</h5>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>

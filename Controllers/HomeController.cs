@@ -35,6 +35,11 @@ namespace Sala_de_escape.Controllers
             return View();
         }
 
+        public IActionResult TercerPregunta()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult SegundaPregunta(string R2P)
         {
@@ -50,6 +55,21 @@ namespace Sala_de_escape.Controllers
         }
 
         [HttpPost]
+        public IActionResult TercerPregunta(string R3P)
+        {
+            string respuestacorrecta;
+            respuestacorrecta="Marcelo Bielsa";
+            if (R3P==respuestacorrecta)
+            {
+                return View("RespuestaOK3");
+            } else 
+            {
+                return View("RespuestaFalla3");
+            }
+        }
+
+
+        [HttpPost]
         public IActionResult PrimerPregunta(int R1P)
         {
             if (R1P==1911)
@@ -61,6 +81,10 @@ namespace Sala_de_escape.Controllers
             }
         }
 
+        public IActionResult RespuestaFalla1()
+        {
+            return View();
+        }
       
         // public ActionResult PR1(int R1)
         // {
