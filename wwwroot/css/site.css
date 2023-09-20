@@ -194,3 +194,10 @@ body {
 {
   background-color: red !important;
 }
+
+#pond
+{
+  position: absolute;
+  bottom: 92px;
+  right: 48px;
+}

@@ -45,7 +45,7 @@ namespace Sala_de_escape.Controllers
         {
             string respuestacorrecta;
             respuestacorrecta="RAMOS";
-            if (R2P==respuestacorrecta)
+            if (R2P.ToUpper() == respuestacorrecta)
             {
                 return View("RespuestaOK2");
             } else 
@@ -81,7 +81,21 @@ namespace Sala_de_escape.Controllers
             }
         }
 
+        public IActionResult RespuestaOK3()
+        {
+            return View();
+        }
+
+        public IActionResult RespuestaFalla3()
+        {
+            return View();
+        }
         public IActionResult RespuestaFalla1()
+        {
+            return View();
+        }
+
+        public IActionResult Final()
         {
             return View();
         }

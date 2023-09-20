@@ -15649,8 +15649,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Home\\RespuestaFalla3.cshtml",
+      "TargetPath": "Views\\Home\\RespuestaFalla3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Home\\Final.cshtml",
+      "TargetPath": "Views\\Home\\Final.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alumno.DESKTOP-IQM010D\\Documents\\TPs David\\Sala-de-escape\\Views\\Home\\RespuestaOK3.cshtml",
+      "TargetPath": "Views\\Home\\RespuestaOK3.cshtml",
       "FileKind": "mvc"
     },
     {

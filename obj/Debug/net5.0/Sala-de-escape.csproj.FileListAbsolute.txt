@@ -44,3 +44,6 @@ C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\RespuestaOK2.cshtml.g.cs
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\RespuestaFalla2.cshtml.g.cs
 C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\TercerPregunta.cshtml.g.cs
+C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\RespuestaFalla3.cshtml.g.cs
+C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\RespuestaOK3.cshtml.g.cs
+C:\Users\Alumno.DESKTOP-IQM010D\Documents\TPs David\Sala-de-escape\obj\Debug\net5.0\Razor\Views\Home\Final.cshtml.g.cs
